@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "EZpark",
+    "slug": "EZpark",
+    "version": "1.0.0",
+    "scheme": "ezpark",
+    "orientation": "portrait",
+    "icon": "./assets/Images/ChatIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Images/Splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ]
+  }
+}
